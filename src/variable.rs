@@ -4,7 +4,9 @@ pub fn run (){
     
     assert_eq!(x + y, 17);
     println!("success");
-    println!("jonn is {} years old",x)
+    println!("jonn is {} years old",x);
+    println!("this is {0} and {0} likes {1}","Daniel","Blessing");
+    
 }
 
 pub fn runn (){
