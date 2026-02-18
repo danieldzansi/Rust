@@ -4,6 +4,7 @@ mod boolen ;
 mod if_else ;
 mod matchs ;
 mod loops ;
+mod strings ;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -14,4 +15,5 @@ fn main() {
     if_else :: com ();
     matchs :: much ();
     loops :: lop();
+    strings :: stri();
 }
