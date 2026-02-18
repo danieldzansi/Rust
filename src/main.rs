@@ -5,6 +5,8 @@ mod if_else ;
 mod matchs ;
 mod loops ;
 mod strings ;
+mod ownership ;
+mod borrow ;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -16,4 +18,6 @@ fn main() {
     matchs :: much ();
     loops :: lop();
     strings :: stri();
+    ownership::own();
+    borrow::borro();
 }
