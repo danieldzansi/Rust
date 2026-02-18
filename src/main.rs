@@ -7,6 +7,8 @@ mod loops ;
 mod strings ;
 mod ownership ;
 mod borrow ;
+mod arrays ;
+mod vectors;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -20,4 +22,6 @@ fn main() {
     strings :: stri();
     ownership::own();
     borrow::borro();
+    arrays::array();
+    vectors::vector();
 }
