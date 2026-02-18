@@ -3,6 +3,7 @@ mod operators ;
 mod boolen ;
 mod if_else ;
 mod matchs ;
+mod loops ;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -12,4 +13,5 @@ fn main() {
     boolen :: bool();
     if_else :: com ();
     matchs :: much ();
+    loops :: lop();
 }
