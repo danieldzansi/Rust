@@ -9,6 +9,7 @@ mod ownership ;
 mod borrow ;
 mod arrays ;
 mod vectors;
+mod turples ;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -24,4 +25,5 @@ fn main() {
     borrow::borro();
     arrays::array();
     vectors::vector();
+    turples::turple();
 }
