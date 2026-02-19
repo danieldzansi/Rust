@@ -10,6 +10,8 @@ mod borrow ;
 mod arrays ;
 mod vectors;
 mod turples ;
+mod hashmap;
+mod structss;
 // mod variables;
 fn main() {
     println!("Hello, world!");
@@ -26,4 +28,6 @@ fn main() {
     arrays::array();
     vectors::vector();
     turples::turple();
+    hashmap::hashmaps();
+    structss::structs();
 }
